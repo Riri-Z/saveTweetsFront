@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+    .CardsListContainer {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+
+.CardsListContainer {
+    display: flex;
+    gap: 10px;
+}
+

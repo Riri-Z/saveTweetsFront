@@ -1,4 +1,19 @@
+:root {
+  background-color: #0093E9;
+  color:white;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: justify;
+  display: flex;
+  flex-direction : column;
+  align-items: center;
+  gap : 10px;
 }

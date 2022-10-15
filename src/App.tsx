@@ -1,12 +1,13 @@
 import "./styles.css";
 import { CardsList } from "./components/cards_list/CardsList";
+import { SearchBar } from "./components/searchBar/SearchBar";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { Tweet } from "./interfaces";
 
 let tweet: Tweet = {
   name: "pseudo",
-  tag: "design",
+  tag: "test",
   tweet_content: "dqzljdzqmiojdmzqoid"
 };
 
@@ -22,6 +23,7 @@ export default function App() {
   return (
     <div className="App">
       <Header />
+      <SearchBar />
       <CardsList tweets={tweetList} />
       <Footer />
     </div>
