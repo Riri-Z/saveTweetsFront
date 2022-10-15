@@ -1,0 +1,19 @@
+.container {
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 30px;
+  gap: 50px;
+  padding: 0 10px 10px 10px;
+  max-width: 550px;
+  background: #25aeff;
+  border-color: aliceblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0 0 0;
+}
